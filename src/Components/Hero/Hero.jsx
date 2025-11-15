@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Hero.css";
 import foto from "../../assets/foto-filtro.png";
-import cv from "../../assets/CV_MachadoJulio.pdf";
 import CoverParticles from '../Cover-Particles/Cover-Particles';
 
 
@@ -30,7 +29,7 @@ import CoverParticles from '../Cover-Particles/Cover-Particles';
         </p>
 
         <div className="btn-Box">
-          <a href={cv} target="_blank" rel="noopener noreferrer">
+          <a href="/Cv_MachadoJulio.pdf" target="_blank" rel="noopener noreferrer">
             Mi Cv <i className="bi bi-file-earmark-arrow-down-fill"></i>
           </a>
 
