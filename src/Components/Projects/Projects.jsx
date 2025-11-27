@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard';
 import img1 from "../../assets/Imagen proyecto-venta.jpg";
 import img2 from "../../assets/Imagen proyecto-Wanda.jpg";
 import img3 from "../../assets/Imagen proyecto-to-do-list.png";
+import img4 from "../../assets/Rick&MortyApp.jpg";
 
 
 const Projects = () => {
@@ -32,6 +33,11 @@ const Projects = () => {
                        description="HTML5, CSS3, JAVASCRIPT"
                        gitlink="https://github.com/JuCeMachado/To-Do-List"
                        pagelink="https://mi-listade.netlify.app/"/>
+          <ProjectCard img={img4} 
+                       title="Rick & Morty App" 
+                       description="HTML5, CSS3, JAVASCRIPT, React, Bootstrap"
+                       gitlink="https://github.com/JuCeMachado/Rick-Morty.git"
+                       pagelink="https://rick-and-morty-apiproject.netlify.app/"/>
         </div> 
     </div>
   )
